@@ -1,0 +1,7 @@
+{
+  "name": "f1_Apk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

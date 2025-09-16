@@ -1,0 +1,19 @@
+.driver-card {
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 8px 20px rgba(0, 255, 133, 0.3);
+  animation: slideUp 1.5s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
